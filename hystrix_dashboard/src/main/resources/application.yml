@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: hystrix-dashboard
+server:
+  port: 7080
+hystrix:
+  config:
+    stream:
+      maxConcurrentConnections: 50

@@ -29,5 +29,7 @@
     <module>server-ribbon</module>
     <module>server-sleuth</module>
     <module>server-admin</module>
+    <module>hystrix_dashboard</module>
+    <module>server-turbine</module>
   </modules>
 </project>
