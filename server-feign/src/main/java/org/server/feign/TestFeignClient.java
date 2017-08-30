@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.server.feign.TestFeignClient.HystrixClientFallback;
 
-@FeignClient(name = "server-a", fallback = HystrixClientFallback.class)
+@FeignClient(name = "server-remote", fallback = HystrixClientFallback.class)
 public interface TestFeignClient {
 	
   @RequestMapping("/api/test")

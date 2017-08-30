@@ -7,8 +7,8 @@
     <artifactId>spring-cloud-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>eureka-server</artifactId>
-  <name>eureka-server</name>
+  <artifactId>server-eureka</artifactId>
+  <name>server-eureka</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

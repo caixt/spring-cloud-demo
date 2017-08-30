@@ -1,4 +1,4 @@
-package org.server.a;
+package org.server.remote;
 
 
 import org.springframework.beans.factory.annotation.Value;

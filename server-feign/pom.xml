@@ -25,7 +25,6 @@
 	      <artifactId>spring-cloud-starter-feign</artifactId>
 	    </dependency>
         
-        <!-- 整合ribbon -->
 	    <dependency>
 	      <groupId>org.springframework.cloud</groupId>
 	      <artifactId>spring-cloud-starter-ribbon</artifactId>
@@ -36,7 +35,6 @@
 	      <artifactId>spring-boot-starter-actuator</artifactId>
 	    </dependency>
 	
-	    <!-- 整合hystrix -->
 	    <dependency>
 	      <groupId>org.springframework.cloud</groupId>
 	      <artifactId>spring-cloud-starter-hystrix</artifactId>

@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class Application {
+public class RibbonApplication {
 
 	@Bean
 	@LoadBalanced
@@ -20,6 +20,6 @@ public class Application {
 	
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(RibbonApplication.class, args);
 	}
 }

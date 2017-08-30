@@ -17,7 +17,7 @@ public class ConsumerController {
     
     @RequestMapping(value = "/api/test", method = RequestMethod.GET)
     public String add(@RequestParam Integer a,@RequestParam Integer b) {
-        return restTemplate.getForEntity("http://server-a/api/test?a="+a+"&b="+b, String.class).getBody();
+        return restTemplate.getForEntity("http://server-remote/api/test?a="+a+"&b="+b, String.class).getBody();
     	
     }
     

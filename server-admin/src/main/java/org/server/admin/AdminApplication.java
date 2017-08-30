@@ -11,8 +11,8 @@ import de.codecentric.boot.admin.config.EnableAdminServer;
 @EnableAutoConfiguration
 @EnableDiscoveryClient
 @EnableAdminServer
-public class SpringBootAdminApplication {
+public class AdminApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootAdminApplication.class, args);
+        SpringApplication.run(AdminApplication.class, args);
     }
 }

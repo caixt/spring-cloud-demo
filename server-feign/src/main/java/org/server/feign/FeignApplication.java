@@ -11,10 +11,10 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableFeignClients
 @EnableDiscoveryClient
 @EnableCircuitBreaker
-public class Application {
+public class FeignApplication {
 
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(Application.class).web(true).run(args);
+		new SpringApplicationBuilder(FeignApplication.class).web(true).run(args);
 	}
 
 }

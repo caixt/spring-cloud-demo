@@ -7,8 +7,8 @@
     <artifactId>spring-cloud-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>server-a</artifactId>
-  <name>server-a</name>
+  <artifactId>server-remote</artifactId>
+  <name>server-remote</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
